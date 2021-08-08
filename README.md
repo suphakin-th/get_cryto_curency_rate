@@ -9,26 +9,27 @@ curl -X POST 'https://api.livecoinwatch.com/coins/single' \
 Let's see all of current data on ETH, in USD currency:
 
 # Example :
-  '''json
-  {
-    "name": "Ethereum",
-    "symbol": "Ξ",
-    "color": "#282a2a",
-    "png32": "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/32/eth.png",
-    "png64": "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/64/eth.png",
-    "webp32": "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/32/eth.webp",
-    "webp64": "https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/64/eth.webp",
-    "exchanges": 153,
-    "markets": 3717,
-    "pairs": 1773,
-    "allTimeHighUSD": 2036.3088032624153,
-    "circulatingSupply": 115250583,
-    "totalSupply": null,
-    "maxSupply": null,
-    "rate": 1786.6742250505124,
-    "volume": 11522748696,
-    "cap": 205915246068
-  }
+{ 
+    "name":"Ethereum",
+    "symbol":"Ξ",
+    "color":"#282a2a",
+    "png32":"https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/32/eth.png",
+    "png64":"https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/64/eth.png",
+    "webp32":"https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/32/eth.webp",
+    "webp64":"https://lcw.nyc3.cdn.digitaloceanspaces.com/production/currencies/64/eth.webp",
+    "exchanges":153,
+    "markets":3717,
+    "pairs":1773,
+    "allTimeHighUSD":2036.3088032624153,
+    "circulatingSupply":115250583,
+    "totalSupply":null,
+    "maxSupply":null,
+    "rate":1786.6742250505124,
+    "volume":11522748696,
+    "cap":205915246068
+}
+
+ 
 # Request
 ## key	type	description
 ### currency	
